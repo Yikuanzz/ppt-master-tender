@@ -164,6 +164,9 @@ yarn.lock
 TODO.md
 PERSONAL_NOTES.md
 
+# Local agent / orchestration state (oh-my-claudecode OMC, session files)
+.omc/
+
 # Projects directory - Work-in-progress projects (not version controlled)
 # Completed projects should be moved to examples/
 # Use cloud sync (iCloud/Dropbox) for backup and multi-device access

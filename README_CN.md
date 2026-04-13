@@ -7,6 +7,8 @@
 
 [English](./README.md) | 中文
 
+> **分支说明 —** 本仓库 [**Yikuanzz/ppt-master-tender**](https://github.com/Yikuanzz/ppt-master-tender) 基于 [**hugohe3/ppt-master**](https://github.com/hugohe3/ppt-master)，并增补 **招投标 / 标书** 相关流程（`skills/ppt-master/workflows/tender-*.md`）。核心引擎问题建议反馈至[上游仓库](https://github.com/hugohe3/ppt-master)；招投标扩展欢迎在本仓库讨论与贡献。
+
 <p align="center">
   <a href="https://hugohe3.github.io/ppt-master/"><strong>在线预览</strong></a> ·
   <a href="https://www.hehugo.com/"><strong>关于何雨果</strong></a> ·
@@ -92,10 +94,12 @@ sudo apt install pandoc          # 可选
 ### 3. 配置项目
 
 ```bash
-git clone https://github.com/hugohe3/ppt-master.git
-cd ppt-master
+git clone https://github.com/Yikuanzz/ppt-master-tender.git
+cd ppt-master-tender
 pip install -r requirements.txt
 ```
+
+上游克隆（参考）：`git clone https://github.com/hugohe3/ppt-master.git`
 
 日常更新：`python3 skills/ppt-master/scripts/update_repo.py`
 
@@ -146,6 +150,7 @@ GEMINI_MODEL=gemini-3.1-flash-image-preview
 | | 文档 | 说明 |
 |---|------|------|
 | 📖 | [SKILL.md](./skills/ppt-master/SKILL.md) | 核心流程与规则 |
+| 📋 | [招投标流程](./skills/ppt-master/workflows/tender-pipeline.md) | 标书类 PPT 端到端流水线 |
 | 📐 | [画布格式](./skills/ppt-master/references/canvas-formats.md) | PPT 16:9、小红书、朋友圈等 10+ 种格式 |
 | 🛠️ | [脚本与工具](./skills/ppt-master/scripts/README.md) | 所有脚本和命令 |
 | 💼 | [示例](./examples/README.md) | 15 个项目，229 页 |

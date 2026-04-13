@@ -7,6 +7,8 @@
 
 English | [中文](./README_CN.md)
 
+> **Fork —** This repo ([**Yikuanzz/ppt-master-tender**](https://github.com/Yikuanzz/ppt-master-tender)) tracks **[hugohe3/ppt-master](https://github.com/hugohe3/ppt-master)** and adds **tender / RFP (招投标)** workflows (`skills/ppt-master/workflows/tender-*.md`). Core bugs and upstream features: use the [original project](https://github.com/hugohe3/ppt-master); tender extensions: contribute here.
+
 <p align="center">
   <a href="https://hugohe3.github.io/ppt-master/"><strong>Live Demo</strong></a> ·
   <a href="https://www.hehugo.com/"><strong>About Hugo He</strong></a> ·
@@ -92,10 +94,12 @@ sudo apt install pandoc          # optional
 ### 3. Set Up
 
 ```bash
-git clone https://github.com/hugohe3/ppt-master.git
-cd ppt-master
+git clone https://github.com/Yikuanzz/ppt-master-tender.git
+cd ppt-master-tender
 pip install -r requirements.txt
 ```
+
+Upstream clone (reference only): `git clone https://github.com/hugohe3/ppt-master.git`
 
 To update later: `python3 skills/ppt-master/scripts/update_repo.py`
 
@@ -146,6 +150,7 @@ Run `python3 skills/ppt-master/scripts/image_gen.py --list-backends` to see tier
 | | Document | Description |
 |---|----------|-------------|
 | 📖 | [SKILL.md](./skills/ppt-master/SKILL.md) | Core workflow and rules |
+| 📋 | [Tender pipeline](./skills/ppt-master/workflows/tender-pipeline.md) | End-to-end tender / bid PPT workflow |
 | 📐 | [Canvas Formats](./skills/ppt-master/references/canvas-formats.md) | PPT 16:9, Xiaohongshu, WeChat, and 10+ formats |
 | 🛠️ | [Scripts & Tools](./skills/ppt-master/scripts/README.md) | All scripts and commands |
 | 💼 | [Examples](./examples/README.md) | 15 projects, 229 pages |
