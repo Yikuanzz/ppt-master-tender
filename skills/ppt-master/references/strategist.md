@@ -66,6 +66,8 @@ Confirm target audience, usage occasion, and core message; provide initial asses
 
 ### d. Style Objective Confirmation
 
+> **Tender Pipeline Note**: When invoked from `tender-pipeline.md`, item **d** is pre-locked to `executor-tender` style. Skip the style selection table below and proceed directly to item **e**.
+
 | Style | Core Focus | Target Audience | One-line Description |
 |-------|-----------|----------------|---------------------|
 | **A) General Versatile** | Visual impact first | Public / clients / trainees | "Catch the eye at a glance" |

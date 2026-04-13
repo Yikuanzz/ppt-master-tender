@@ -72,6 +72,7 @@ For complete tool documentation, see `${SKILL_DIR}/scripts/README.md`.
 | Workflow | Path | Purpose |
 |----------|------|---------|
 | `create-template` | `workflows/create-template.md` | Standalone template creation workflow |
+| `tender-pipeline` | `workflows/tender-pipeline.md` | End-to-end tender bid PPT creation pipeline (copy phase + execution phase) |
 
 ---
 
